@@ -37,17 +37,17 @@ npm run check                # shows progress and flags patterns a good conversi
 | # | Test | Done |
 |---|---|---|
 | 01 | Valid login lands on the dashboard | yes (given) |
-| 02 | Wrong password shows an error | half |
-| 03 | Every business area can log in | |
-| 04 | Dashboard lists the holdings for the account | |
-| 05 | An account with no holdings shows the empty message | |
-| 06 | Logging out returns to login and blocks the dashboard | |
-| 07 | Selling on NSE with cash settlement is confirmed | |
-| 08 | Cheque settlement without a branch is rejected | |
-| 09 | Cheque settlement with a branch is confirmed | |
-| 10 | Selling more than is held is rejected | |
-| 11 | A sale reduces the quantity held on the server | |
-| 12 | A freshly seeded account starts with the default holdings and balance | |
-| 13 | The statement opens in a new window | |
-| 14 | The terms can be accepted inside the iframe | |
-| 15 | The market filter accepts several selections | |
+| 02 | Wrong password shows an error | yes |
+| 03 | Every business area can log in | yes |
+| 04 | Dashboard lists the holdings for the account | yes |
+| 05 | An account with no holdings shows the empty message | yes |
+| 06 | Logging out returns to login and blocks the dashboard | yes |
+| 07 | Selling on NSE with cash settlement is confirmed | yes |
+| 08 | Cheque settlement without a branch is rejected | yes |
+| 09 | Cheque settlement with a branch is confirmed | yes |
+| 10 | Selling more than is held is rejected | yes |
+| 11 | A sale reduces the quantity held on the server | yes |
+| 12 | A freshly seeded account starts with the default holdings and balance | yes |
+| 13 | The statement opens in a new window | yes |
+| 14 | The terms can be accepted inside the iframe | yes |
+| 15 | The market filter accepts several selections | yes |
